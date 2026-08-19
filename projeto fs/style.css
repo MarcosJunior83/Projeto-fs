@@ -1,89 +1,23 @@
-        .meu-header {
-            display: flex;
-            align-items: center;
-            background-color: #0a4e13;
-            color: #fff;
-            padding: 18px 50px;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            border-radius: 10px;
-        }
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-        }
-        .menu {
-            display: flex;
-            gap: 20px;
-
-        }
-
-body {
-    background-color: #d8ffe8;
+html{
+    scroll-behavior: smooth;
 }
 
-        
-.container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-
-    
-}
-
-.destaque {
-      background-color: #17762d;
-    border: 2px solid #0a4e13;
-}
-
-.card {
-
-  margin: 20px;
-  padding: 10px;
-  transition: 0.3s; 
-  width: auto;
-  background: #fbfbfb;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-family: sans-serif;
+body{
+    padding-top: 72px;
 
 }
 
-
-.card:hover {
-
-  box-shadow: 0 8px 16px 0 rgba(19, 18, 18, 0.2);
-    background-color: #c3c3c3;
-    box-shadow: 0 8px 16px rgba(19, 18, 18, 0.2);
-    transform: translateY(-3px);
+.section-padding{
+    padding: 72px 0;
 }
 
- 
-
-.card img {
-
-  width: 100%;
-  height: auto;
-  display: block;
-
+.logo{
+    width: 140px;
+    height: auto;
 }
 
- 
-
-.card-content {
-
-  padding: 16px;
-
-}
- 
-.rodape {
-    margin-top: 30px;
-    padding: 25px;
-    background-color: #0a4e13;
-    color: white;
-    text-align: center;
-}
-
-.rodape p {
-    margin: 8px;
+.hero-section{
+    min-height: 520px;
+    display: flex;
+    align-items: center;
 }
